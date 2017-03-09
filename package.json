@@ -1,0 +1,30 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Dating App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/derekmphillips/friendFinder.git"
+  },
+  "keywords": [
+    "Dating",
+    "App"
+  ],
+  "author": "Derek Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derekmphillips/friendFinder/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "method-override": "^2.3.7",
+    "path": "^0.12.7"
+  }
+}
